@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', serif; 
+    background-color: #d3d3d3; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #e0dfdd; 
+    position: relative;
+  }
+  
+
+  .logo h3 {
+    width: 224px;
+    font-size: 28px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 3px solid black;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    position: relative;
+  }
+  
+  .nav-links::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 700px;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #6e6d6a; /* Grey color matching the image */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: grey;
+    border-right: none;
+    border-left: none;
+    border-bottom-color:blue;
+    outline: none;
+  }
+  
+  .search-container .search-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    /* font-size: 16px; */
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+  }
+  .search-container:hover{
+background-color: rgb(155, 148, 148);
+  }
+  /* after navbar */
+  .box1{
+    margin-right: 50px;
+    align-items: center;
+    margin: 50px;
+  
+  
+    }
+ 
+    .PP{
+        writing-mode: vertical-rl;
+        margin: -20px;
+        padding: 30px;
+      }
+   
+     .box2{
+      margin-top: 8px;
+      margin-left: 23px;
+      font-family: 'Roboto Mono', sans-serif;
+      color: #000;
+     /* line-height: 1; */
+    
+      letter-spacing: 4px;
+      position: absolute;
+      bottom: 450px;
+      left: 300px;
+      overflow-x: hidden;
+   }
+   .Box3{
+      margin-top: 8px;
+      margin-left: 70px;
+      font-family: 'Roboto Mono', sans-serif;
+      color: #000;
+     line-height: 1;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 468px;
+      left: 489px;
+   }
+   .heading{
+      
+      margin-top: 16px;
+      margin-left: 13px;
+      font-family:  Georgia, 'Times New Roman', Times, serif; 
+      color: #000;
+      font-size: 46px;
+      line-height: 1;
+      font-weight: 300;
+      letter-spacing: 3px;
+      position: absolute;
+      bottom: 390px;
+      left: 489px;
+   }
+      
+  
+  .box4{
+      margin-top: 15px;
+      margin-left: 20px;
+      font-family: 'Roboto Mono', sans-serif;
+      color: #000;
+    
+      line-height: 1;
+      font-weight: 700;
+      letter-spacing: 3px;
+      /* text-transform: u */
+      position: absolute;
+      bottom: 480px;
+      left: 1200px;
+      /* overflow-x: hidden; */
+  }
+.box5{
+  position: absolute;
+  top: 300px;
+  right: 800px;
+  bottom: 100px;
+}
+.box6{
+  height: 0px;
+  width: 480px;
+  position: absolute;
+  top: 300px;
+  right: 200px;
+  bottom: 100px;
+
+}
+.button1{
+  background-color: black;
+  margin: 50px;
+  height: 40px;
+  width: 200px;
+  color: white;
+}
+.CONTAINER1{
+    position: absolute;
+    top: 200px;
+    right: 60px;
+    bottom: 100px;
+
+}
+.AB{
+    position: relative;
+    bottom: 50PX;
+    left: 60PX;
+}
+.BB{
+    position: relative;
+    bottom: 50PX;
+    left: 60PX;
+}
+.CC{
+    position: relative;
+    bottom: 50PX;
+    left: 60PX;
+}
+.CC:hover{
+    background-color: white;
+}
+.BB:hover{
+    background-color: white;
+}
+.AB:hover{
+    background-color: white;
+}
+
+
+
+
+.books{
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    bottom: 400px;
+}
+.CONTAINER2{
+    position: absolute;
+    top: 600px;
+    right: 60px;
+    bottom: 300px;
+    
+
+}
+.Aa{
+    position: relative;
+    bottom: 50PX;
+    left: 10PX;
+    display: flex;
+}
+.bb{
+    position: relative;
+    bottom: 50PX;
+    left: 60PX;
+    /* display: flex; */
+}
+
+.CC{
+    position: relative;
+    bottom: 50PX;
+    left: 60PX;
+    /* display: flex; */
+} 
+.CC:hover{
+    background-color: white;
+}
+.BB:hover{
+    background-color: white;
+}
+.AB:hover{
+    background-color: white;
+}
+.num{
+    
+    width: 20PX;
+position: relative;
+top: 365px;
+left: 70px;
+overflow-x: hidden;
+color: rgb(124, 123, 123);
+}
+.design{
+    position: absolute;
+top: 900px;
+left: 200px;
+overflow-x: hidden;
+color: rgb(124, 123, 123);
+
+}
+.tut{
+    position: absolute;
+top: 900px;
+left: 900px;
+overflow: hidden;
+color: rgb(124, 123, 123);
+
+}
